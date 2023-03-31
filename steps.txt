@@ -1,0 +1,25 @@
+
+
+tinyurl.com/amreddycode
+
+pip install flask_session
+pip install flask_mysqldb
+
+
+1.create database spm;
+2.use spm;
+students-table
+
+Requirements-
+flask
+flask_session
+flask_mysqldb or (in case of errors -flask-mysql)
+
+Create three routings index,register,login
+then make changes in templates by using url_for
+change the method to post in the form of register template
+
+we need to give name attribute in input tag to get form data to the backend otherwise the data will be empty(the form data will reach the backend in a immutable dictionary)
+
+we add required in input tag to make those fields mandatory
+fetch the detials entered in application in mysql db 
